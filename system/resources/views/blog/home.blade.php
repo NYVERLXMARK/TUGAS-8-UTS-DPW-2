@@ -12,7 +12,7 @@
             <div class="metafooter">
                 <div class="wrapfooter">
                     <span class="meta-footer-thumb">
-                    <a href="{{('blog/contact')}}"><img class="author-thumb" src="{{url('public')}}/blog/assets/img/NR.png" alt="author"></a>
+                    <a href="{{url('blog/contact')}}"><img class="author-thumb" src="{{url('public')}}/blog/assets/img/NR.png" alt="author"></a>
                     </span>
                     <span class="author-meta">
                     <span class="post-name"><a href="{{('blog/contact')}}">{{($artikel->penulis->nama)}}</a></span><br/>

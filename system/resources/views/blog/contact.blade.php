@@ -26,7 +26,7 @@
                             <a target="_blank" href="https://www.youtube.com/channel/UCb9rrBervFkfLrLXYsJ9dBA/" class="btn btn-outline-danger"><i class="fa-brands fa-youtube"></i> Follow My Youtube</a>
                         </div>
                         <div class="col-md-2 col-xs-12">
-                            <img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="author">
+                            <img class="author-thumb" src="{{url('public')}}/blog/assets/img/NR.png" alt="author">
                         </div>
                     </div>
                 </div>

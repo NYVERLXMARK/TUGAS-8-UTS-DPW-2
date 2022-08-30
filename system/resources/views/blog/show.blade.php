@@ -9,10 +9,10 @@
                     <!-- Begin Top Meta -->
                     <div class="row post-top-meta">
                         <div class="col-md-2">
-                            <a href="{{('blog/contact')}}"><img class="author-thumb" src="{{url('public')}}/blog/assets/img/NR.png" alt="author"></a>
+                            <a href="{{url('blog/contact')}}"><img class="author-thumb" src="{{url('public')}}/blog/assets/img/NR.png" alt="author"></a>
                         </div>
                         <div class="col-md-10">
-                            <a class="link-dark" href="{{('blog/contact')}}">{{($artikel->penulis->nama)}}</a> |
+                            <a class="link-dark" href="{{url('blog/contact')}}">{{($artikel->penulis->nama)}}</a> |
                             <a href="https://twitter.com/NyverL" target="_blank" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a> |
                             <a href="https://www.instagram.com/nyverl/" target="_blank" class="btn btn-danger"><i class="fa-brands fa-instagram"></i></a> |
                             <a href="https://www.facebook.com/RNGod.NR/" target="_blank" class="btn btn-primary"><i class="fa-brands fa-facebook"></i></a>
